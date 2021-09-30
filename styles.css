@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+nav{
+    background-color: rgb(39, 39, 39);
+    overflow: hidden;
+    height: 70px;
+}
+
+
+li{
+    
+    display: inline-block;
+    padding: 15px;
+ 
+}
+
+li:nth-child(2){
+margin-left: 50px;
+}
+
+a{
+ text-decoration: none;
+ color: white;
+}
+
+button{
+    background-color: orange;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px;
+    
+}
+
+button:hover{
+    background-color: black;
+    color: orange;
+    box-shadow: 1px 1px;
+    cursor: pointer;
+}
+
+img{
+    height: 250px;
+    width: 150px;
+}
+
+#listItem{
+    display: inline-block;
+}
